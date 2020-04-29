@@ -18,11 +18,22 @@ https://github.com/kubermatic/kubeone/blob/master/docs/ssh.md
 
 After that , loading the images  using
 
+kubectl apply -f env-configmap.yaml
 
-kubectl apply -f backend-user-service.yml
-kubectl apply -f backend-feed-service.yml
-kubectl apply -f frontend-service.yml
-kubectl apply -f reverseproxy-service.yml
+kubectl apply -f env-secret.yaml
+
+kubectl apply -f backend-user-deployment.yaml
+kubectl apply -f backend-user-service.yaml
+kubectl apply -f backend-feed-deployment.yaml
+ kubectl apply -f backend-feed-service.yaml
+kubectl apply -f frontend-deployment.yaml
+ kubectl apply -f frontend-service.yaml 
+kubectl apply -f reverseproxy-deployment.yaml
+
+kubectl apply -f pod-example/pod.yaml
+
+kubectl get pod -o wide
+
 
 
 # Image References
@@ -33,8 +44,8 @@ kubectl apply -f reverseproxy-service.yml
 ![image of travisci](../../course-03/exercises/screenshots/travis1.png)
 ![image of travisci](../../course-03/exercises/screenshots/travis2.png)
 
-## Kubectl get pod
-![image of kubectlgetpod](../../course-03/exercises/screenshots/kubectlgetpod.png)
+## kubectl get pod
+![image of kubectlgetpod](../../course-03/exercises/screenshots/kubectl.png)
 
 ## Application
 ![image of app](../../course-03/exercises/screenshots/app.png)
