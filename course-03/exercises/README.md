@@ -17,14 +17,15 @@ Installation based on https://github.com/kubermatic/kubeone/blob/3746055da2dfa0a
 After that , loading the images 
 
 # Image References
-##DockerHub
+## DockerHub
 ![image of dockerhub](../../course-03/exercises/screenshots/dockerhub.png)
 
-##TravisCI
-![image of travisci](../../course-03/exercises/screenshots/travisci.png)
+## TravisCI
+![image of travisci](../../course-03/exercises/screenshots/travis1.png)
+![image of travisci](../../course-03/exercises/screenshots/travis2.png)
 
-##Kubectl get pod
+## Kubectl get pod
 ![image of kubectlgetpod](../../course-03/exercises/screenshots/kubectlgetpod.png)
 
-##Application
+## Application
 ![image of app](../../course-03/exercises/screenshots/app.png)
