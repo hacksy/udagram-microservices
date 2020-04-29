@@ -18,13 +18,13 @@ After that , loading the images
 
 # Image References
 ##DockerHub
-![image of dockerhub](../../screenshots/dockerhub.png)
+![image of dockerhub](../../course-03/exercises/screenshots/dockerhub.png)
 
 ##TravisCI
-![image of travisci](../../screenshots/travisci.png)
+![image of travisci](../../course-03/exercises/screenshots/travisci.png)
 
 ##Kubectl get pod
-![image of kubectlgetpod](../../screenshots/kubectlgetpod.png)
+![image of kubectlgetpod](../../course-03/exercises/screenshots/kubectlgetpod.png)
 
 ##Application
-![image of app](../../screenshots/app.png)
+![image of app](../../course-03/exercises/screenshots/app.png)
