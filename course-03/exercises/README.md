@@ -1,4 +1,4 @@
-# Udagram Image Filtering Microservice
+# Udagram 
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
@@ -47,5 +47,7 @@ kubectl get pod -o wide
 ## kubectl get pod
 ![image of kubectlgetpod](../../course-03/exercises/screenshots/kubectl.png)
 
+
 ## Application
+On Windows Docker Toolbox does not point to localhost and instead uses a local ip - retrived with docker-machine ip -
 ![image of app](../../course-03/exercises/screenshots/app.png)
