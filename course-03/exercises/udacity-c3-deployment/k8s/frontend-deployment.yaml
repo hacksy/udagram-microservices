@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: hacksy123/udacity-frontend:local
+      - image: hacksy123/udacity-frontend
         name: frontend
         imagePullPolicy: Always          
         ports:
