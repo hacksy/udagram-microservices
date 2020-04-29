@@ -16,6 +16,5 @@ before_install:
   - chmod +x ./udacity-c3-deployment/docker/build.sh
 
 script:
-  - ./udacity-c3-deployment/docker/build.sh
+  - ./cloud-developer/course-03/exercises/udacity-c3-deployment/docker/build.sh
 
-  
