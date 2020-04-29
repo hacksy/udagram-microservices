@@ -13,8 +13,17 @@ A basic Ionic client web application which consumes the RestAPI Backend.
 ## Installing Kubernetes in the AWS Instance
 
 Installation based on https://github.com/kubermatic/kubeone/blob/3746055da2dfa0a747691927dffa9a66db54fd18/docs/quickstart-aws.md
+and
+https://github.com/kubermatic/kubeone/blob/master/docs/ssh.md
 
-After that , loading the images 
+After that , loading the images  using
+
+
+kubectl apply -f backend-user-service.yml
+kubectl apply -f backend-feed-service.yml
+kubectl apply -f frontend-service.yml
+kubectl apply -f reverseproxy-service.yml
+
 
 # Image References
 ## DockerHub
